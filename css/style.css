@@ -1,0 +1,45 @@
+body{
+}
+.divs{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#all{
+  background-color: #cccccc;
+}
+.element{
+  width: 98%;
+  height: 31%;
+  margin: 0 1% 1%;
+  top:1%;
+}
+
+.red   { background-color: #ffb6af;}
+.green {
+  text-align: center;
+  background-color: #d3ffaf;}
+.blue  { background-color: #b6ffee;}
+
+
+
+.profile{
+  text-align: center;
+  /*background-color:red;*/
+  position: relative;
+  height: 90%;
+  top:5%;
+}
+#profile{
+  position: relative;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.green span{
+  font-family: monospace;
+  font-size: 42px;
+  position: relative;
+  top: 30%;
+}
