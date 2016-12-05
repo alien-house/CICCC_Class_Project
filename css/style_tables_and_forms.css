@@ -1,0 +1,17 @@
+
+
+table{
+  position: relative;
+  border-top: #aaa solid 1px;
+  border-left: #aaa solid 1px;
+  border-spacing: 0;
+  border-collapse: 0;
+  margin: 0;
+  padding: 0;
+}
+table td,
+table th{
+  padding: 10px 15px;
+  border-bottom: #aaa solid 1px;
+  border-right: #aaa solid 1px;
+}
