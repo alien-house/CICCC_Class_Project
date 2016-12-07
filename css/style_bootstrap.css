@@ -1,0 +1,43 @@
+.row{
+  margin-bottom: 30px;
+}
+
+.cols{
+  height: 100px;
+}
+
+#col1{
+  color: #fff;
+  background-color: #333;
+  text-align: center;
+}
+#col1 img{
+position: relative;
+  top: 10%;
+  height: 80%;
+}
+
+#col2{
+  color: #fff;
+  background-color: red;
+}
+
+#col3{
+  color: #fff;
+  background-color: green;
+}
+
+#col4{
+  color: #fff;
+  background-color: blue;
+}
+#myTables{
+  width: 100%;
+  position: relative;
+
+}
+#result{
+  position: relative;
+  top:10px;
+  display: block;
+}

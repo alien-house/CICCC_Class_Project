@@ -22,6 +22,4 @@ function FormClicked(){
     window.alert("Incorrent user/passward");
   }
 
-
-
 }
