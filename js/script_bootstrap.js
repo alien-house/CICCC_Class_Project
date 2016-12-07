@@ -12,6 +12,5 @@ function btnLoginClicked(){
     resultEl.innerHTML = "Incorrect email/passwords.";
     resultEl.className = "bg-danger";
   }
-  
 
 }
