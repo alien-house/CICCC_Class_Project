@@ -13,6 +13,8 @@ $(function(){
   });
 
   $("#div2").click(function(){
+
+
     $(".div2child").animate({
         top: "80%",
         left: "90%"
