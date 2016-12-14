@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="view" charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ajax Sync and Async</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style_forms_ajax.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- <script src="js/jquery.xdomainajax.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script_forms_ajax.js"></script>
+  </head>
+  <body>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+              <!-- We need to use ajax derectly to server, in the past, we use action url -->
+              <!-- each machine diffrent api -->
+              <!-- form is that we gonna sent to a server a data -->
+              <form id="mainForm" action="#">
+                <div class="form-group">
+                  <label for="txtContact">Contact Name:</label>
+                    <input type="text" name="contactName" class="form-control" value="" id="txtContact" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="txtEmail">Email:</label>
+                    <input type="email" name="email" class="form-control" value="" id="txtEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="txtComments">Comments:</label>
+                    <textarea class="form-control" rows="3" name="comments" placeholder="Comments"></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="toEmail">To:</label>
+                    <input type="email" name="to" class="form-control" value="" id="toEmail" placeholder="Email">
+                </div>
+
+                <input id="btn-submit" type="submit" name="" value="Click">
+              </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <span id="result"></span>
+          </div>
+        </div>
+      </div>
+
+
+
+  </body>
+</html>
