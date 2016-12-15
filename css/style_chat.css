@@ -1,0 +1,25 @@
+body,html,.container,
+#colMessage,#txtChat,.height100{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#rowMessage{
+  position: relative;
+  height: 90%;
+}
+#txtChat{
+  width: 100%;
+  color: #333;
+}
+.form-control{
+  height: 100%;
+
+}
+.container{
+  position: relative;
+  height: 100%;
+}
+#colMessage{
+  margin: 0 0 10px;
+}
